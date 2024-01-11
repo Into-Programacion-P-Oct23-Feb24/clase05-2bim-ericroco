@@ -16,18 +16,23 @@ public class Ejemplo06 {
         // [1][1]
         // hasta el final
         
+        /* en este for se recorre el arreglo valor1 y se imprime posicion 
+        por posicion los valores existentes*/
         for (int i = 0; i < valor1.length; i++) {
             System.out.printf("El valor es: %d\n", 
                     obtenerSuma(valor1[i], valor2[i]));
         }
-        
+        /* en este for asignamos el valor de i posicion a una variable num 
+        y la imprimimos*/
         for (int i = 0; i < valor1.length; i++) {
             int num1 = valor1[i];
             int num2 = valor2[i];
             System.out.printf("El valor es: %d\n", 
                     obtenerSuma(num1, num2));
         }
-        
+        /* en este arreglo asignamos a una variable el valor del arreglo en i 
+        posicion y llamamos a una funcion que los suma para luego imprimir 
+        el resultado*/
         for (int i = 0; i < valor1.length; i++) {
             int num1 = valor1[i];
             int num2 = valor2[i];
